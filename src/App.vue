@@ -1,13 +1,11 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+	<div class="bg-gray-800">
+		<div>
+			<router-view></router-view>
+		</div>
+	</div>
 </template>
 
-<style>
-
-</style>
+<style></style>
