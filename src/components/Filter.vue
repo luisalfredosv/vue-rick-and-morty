@@ -4,28 +4,27 @@
 		{
 			label: "All",
 			name: "ALL",
-			active: false
+			active: false,
 		},
 		{
 			label: "Alive",
 			name: "ALIVE",
-			active: false
+			active: false,
 		},
 		{
 			label: "Dead",
 			name: "DEAD",
-			active: false
+			active: false,
 		},
 		{
 			label: "Unknown",
 			name: "UNKNOWN",
-			active: false
+			active: false,
 		},
 	];
 	const form = reactive({
 		items: ref(items),
 	});
-
 </script>
 
 <template>
@@ -63,3 +62,13 @@
 		</div>
 	</div>
 </template>
+
+<style scoped>
+	button:first-child {
+		@apply rounded-l-md;
+	}
+
+	button:last-child {
+		@apply rounded-r-md;
+	}
+</style>
