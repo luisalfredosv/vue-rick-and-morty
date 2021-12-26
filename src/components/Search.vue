@@ -33,6 +33,7 @@
 						pl-10
                         w-full
 						focus:outline-none focus:bg-white focus:text-gray-900
+						pr-2
 					"
 					placeholder="Search..."
 					autocomplete="off"
